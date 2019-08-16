@@ -19,8 +19,8 @@ section .data
 	salto_linea db " ", 10
 	len_salto db $-salto_linea
 
-	path1 db "/home/yuli/Documentos/arreglo.txt", 0
-	path2 db "/home/yuli/Documentos/repeticiones.txt", 0
+	path1 db "/home/yuli/Documentos/Archivos/arreglo.txt", 0
+	path2 db "/home/yuli/Documentos/Archivos/repeticiones.txt", 0
 
 	cadena db  "          "
     len_cadena equ $-cadena
